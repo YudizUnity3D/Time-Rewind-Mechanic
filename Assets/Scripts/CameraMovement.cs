@@ -5,6 +5,9 @@ public class CameraMovement : MonoBehaviour
 {
 	public enum axis{x, y, z};
 
+	/// <summary>
+	/// The camera axis.
+	/// </summary>
 	public axis cameraAxis;
 
 	public float speed;
