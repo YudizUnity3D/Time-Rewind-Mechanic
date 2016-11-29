@@ -69,7 +69,7 @@ public class TimeKeeper : MonoBehaviour
 		//keep removing old data if the list size exceeds a certain value
 		//this is extremely important because without this logic, the list size
 		//will continue to increase which is not desirable
-		if(indexVal>listLimit && !isRewinding)
+		if(indexVal>=listLimit && !isRewinding)
 		{
 		
 			positionVal.RemoveAt(0);
